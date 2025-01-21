@@ -45,7 +45,10 @@
   <ItemGroup>
     <Compile Include="FileName.cs" />
     <Compile Include="leet14.cs" />
+    <Compile Include="Leet26.cs" />
+    <Compile Include="MainCode.cs" />
     <Compile Include="leet20.cs" />
+    <Compile Include="Leet9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -9,7 +9,7 @@ namespace ConsoleApp2
     internal class leet20
     {
 
-        static void Main(string[] args)
+        public void tempp()
         {
             /*
             bool output = false;
@@ -47,20 +47,22 @@ namespace ConsoleApp2
             if (sb.Length == 0)
                 output = true;
             */
-            
-             //* Better answer using stack, never seen this before.
-                      var k = new Stack<char>();
+
+            //* Better answer using stack, never seen this before.
+            var k = new Stack<char>();
             string s = "(({}))";
-            foreach (char c in s) {
-            if (c == '(') { k.Push(')'); continue; }
-            if (c == '{') { k.Push('}'); continue; }
-            if (c == '[') { k.Push(']'); continue; }
+            foreach (char c in s)
+            {
+                if (c == '(') { k.Push(')'); continue; }
+                if (c == '{') { k.Push('}'); continue; }
+                if (c == '[') { k.Push(']'); continue; }
                 if (k.Count == 0 || c != k.Pop()) ;// return false;
-        }
-        //return k.Count == 0;
-             
 
-        }
+                //return k.Count == 0;
 
+
+
+            }
+        }
     }
 }
