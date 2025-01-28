@@ -10,6 +10,10 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+            int[] nums = { 3};
+            Leet27 Trial = new Leet27();
+            int answ = Trial.RemoveElement(nums, 3);
+
         }
     }
 }
