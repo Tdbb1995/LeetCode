@@ -10,9 +10,11 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int[] nums = { 3};
-            Leet27 Trial = new Leet27();
-            int answ = Trial.RemoveElement(nums, 3);
+            int[] nums1 = { 4, 0, 0, 0, 0, 0 };
+            int m = 1, n = 5;
+            int[] nums2 = { 1, 2, 3,5,6 };
+            arrayexamples leet = new arrayexamples();
+            leet.Merge(nums1,m,nums2,n);     
 
         }
     }
